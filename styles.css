@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Monotron";
+  src: url("Monoton-Regular.ttf");
+}
+
+body {
+  font-family: "Monotron";
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.letter {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: blue;
+}
+
+h2 {
+  font-size: 6rem;
+  color: pink;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: orange;
+}
+
+#randNum {
+  color: lightblue;
+}
+
+button {
+  font-family: "Lucida Sans";
+  font-size: 0.9rem;
+  color: white;
+  background-color: skyblue;
+  border: 3px solid lightgreen;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+button:hover {
+  font-family: "Lucida Sans";
+  font-size: 0.9rem;
+  background-color: lightgreen;
+  border: 3px solid skyblue;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
