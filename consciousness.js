@@ -36,7 +36,7 @@ const generateConsciousness = () => {
 
     const phrases = [
       "just do it",
-      "first thought, best throught",
+      "first thought, best thought",
       "respect yourself",
       "anything is possible",
       "divine expression",
