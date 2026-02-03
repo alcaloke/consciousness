@@ -4,6 +4,7 @@ const title = document.getElementById("title")
 const conscious = document.getElementById("conscious")
 const phrase = document.getElementById("phrase")
 const randNum = document.getElementById("randNum")
+const genButton = document.getElementById("genButton")
 
 const getRndInt = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min
@@ -72,4 +73,13 @@ const generateConsciousness = () => {
   }
 
   run().then(() => (title.style.color = "violet"))
+}
+
+window.onload = function () {
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      genButton.click()
+      console.log("entered")
+    }
+  })
 }
